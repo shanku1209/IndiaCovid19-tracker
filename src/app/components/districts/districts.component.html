@@ -1,0 +1,34 @@
+<body class="body">
+    <h1 class="h1">India Covid 19 tracker</h1> 
+    
+    <h2 class="h2">Cases in Districts</h2>
+    
+    <button class="btn-sec" [routerLink]="['/']">States</button>
+    
+    
+    <div class="d-flex justify-content-center"> 
+    
+    
+    <table class="table" id='tab'> 
+        <thead> 
+        <tr class="heading" >
+            <th scope="col">District</th>  
+            <th scope="col">Confirmed</th> 
+            
+            
+        </tr> 
+        </thead> 
+        <tbody> 
+        <tr class="data" *ngFor="let e of lis;"> 
+            <td>{{ e.id}}</td>
+        
+            <td>{{ e.confirmed}}</td>
+            
+        </tr> 
+        
+        <div></div>
+        </tbody> 
+        
+    </table>			
+    </div>
+    </body>

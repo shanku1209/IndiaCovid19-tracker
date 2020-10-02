@@ -1,0 +1,55 @@
+table{
+    width: 100%;
+}
+.mat-sort-header-container {
+    align-items: center;
+  }
+.th.mat-sort-header-sorted{
+    color:red;
+}
+.h1{
+    font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #8B0000;
+  
+  }
+  .h2{
+    font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: darkslategrey;}
+    .btn-pri{
+        background: #222;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 15px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+.body{
+  color: cornflowerblue;
+  background-color: gray;
+  font-size: 2rem;
+  
+}
+.heading{
+  color: black;
+  font-weight: bold;
+}
+
+    
+    
+   
